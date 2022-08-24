@@ -8,5 +8,7 @@ Menampilkan "Hello World!" untuk GET, POST, PUT dan DELETE dengan endpoint /v1/m
 
 # Perbedaan GET, POST, DELETE pada endpoint
 GET : Hanya melakukan request tanpa melakukan perubahan terhadap server,dapat dispesifikasikan sebagai idempotent tanpa merubah status dari aplikasi
+
 POST : Melakukan perubahan terhadap server dengan menambah/merubah data, sehingga dapat merubah status dari aplikasi 
+
 DELETE : Juga melakukan perubahan terhadap server dengan cara menghapus data sesuai request yang diberikan, sehingga juga merubah status dari aplikasi
